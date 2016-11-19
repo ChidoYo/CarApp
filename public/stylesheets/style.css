@@ -9,6 +9,7 @@ body {
 main {
   flex: 1 0 auto;
 }
+
 .title {
   color: purple;
 }
@@ -26,4 +27,13 @@ main {
 #CRapp {
   font-family: fantasy;
   font-variant: small-caps;
+
+.bear {
+  font-size: 35px;
+  font-style:
+}
+
+#aboutbody {
+  background-image: url("../images/grey.jpg");
+  background-size: cover;
 }

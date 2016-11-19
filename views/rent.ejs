@@ -8,25 +8,34 @@
     <% include ./partials/header %>
 
     <section class="container">
+      <h1>Rent</h1>
+        <form>
+         <fieldset>
+           <label for="target">Type Something:</label>
+           <input id="target" type="text">
+         </fieldset>
+        </form>
+          <button id="submit">
+            Submit
+          </button>
+          <ol id="apiDiv">
+          </ol>
 
-        <h1>Rent</h1>
+       <!--div class="row">
 
-        <div class="row">
+           <div class="col m5">
 
-            <div class="col m5">
+               <ul id="dropdown2" class="dropdown-content">
+                   <li><a class="red-text text-darken-4" href="#!">Porsche</a></li>
+                   <li><a class="red-text text-darken-4" href="#!">lamborghini</a></li>
+                   <li><a class="red-text text-darken-4" href="#!">Ferrari</a></li>
+                   <li><a class="red-text text-darken-4" href="#!">Maserati</a></li>
+                 </ul>
+                 <a class="btn dropdown-button red darken-4" href="#!" data-activates="dropdown2">Select Make<i class="mdi-navigation-arrow-drop-down right"></i></a>
 
-                <ul id="dropdown2" class="dropdown-content">
-                    <li><a class="red-text text-darken-4" href="#!">Porsche</a></li>
-                    <li><a class="red-text text-darken-4" href="#!">lamborghini</a></li>
-                    <li><a class="red-text text-darken-4" href="#!">Ferrari</a></li>
-                    <li><a class="red-text text-darken-4" href="#!">Maserati</a></li>
-                  </ul>
-                  <a class="btn dropdown-button red darken-4" href="#!" data-activates="dropdown2">Select Make<i class="mdi-navigation-arrow-drop-down right"></i></a>
+           </div>
 
-            </div>
-
-        </div>
-
+       </div-->
     </section>
 
     <% include ./partials/footer %>

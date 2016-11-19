@@ -9,3 +9,21 @@ body {
 main {
   flex: 1 0 auto;
 }
+.title {
+  color: purple;
+}
+
+#home {
+  font-family: fantasy;
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+  color: grey;
+}
+
+#CRapp {
+  font-family: fantasy;
+  font-variant: small-caps;
+}

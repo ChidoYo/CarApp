@@ -9,3 +9,13 @@ body {
 main {
   flex: 1 0 auto;
 }
+
+.bear {
+  font-size: 35px;
+  font-style:
+}
+
+#aboutbody {
+  background-image: url("../images/grey.jpg");
+  background-size: cover;
+}

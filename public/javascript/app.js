@@ -1,7 +1,8 @@
 $(document).ready(function(){
 
   $('#get-weather').on('click', function(){
-    var sendData = $('#city').val() + ',' + $('#country').val();
+    alert('working');
+    /*var sendData = $('#city').val() + ',' + $('#country').val();
     var result = $('#weatherDiv');
 
     $.ajax ({
@@ -17,5 +18,5 @@ $(document).ready(function(){
       }
 
     });
-  });
+  });*/
 });
